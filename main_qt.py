@@ -22,43 +22,10 @@ class Bili_Comment(QMainWindow):
         self.session_id=""#第一页无session_id
         self.web_location=1315875#必须是整数类型啊！！！
         self.cookies = {
-            'buvid3': '6C16A34E-4B78-F350-03AA-71E6B21A703519906infoc',
-            'b_nut': '1726211919',
-            '_uuid': '828DDCCD-F3CD-3997-11077-1729B6881A6120884infoc',
-            'enable_web_push': 'DISABLE',
-            'buvid4': '3CB58DB4-B2F0-07C1-06FA-E452949C4A8942274-024082300-j2Owk+KrE1E0oCXj+7DzqA%3D%3D',
-            'header_theme_version': 'CLOSE',
-            'rpdid': "|(u|kkmlu~ll0J'u~kYkukl|m",
-            'fingerprint': '65fbd3ec7ea1fba4aa76eb96cb7f6249',
-            'buvid_fp_plain': 'undefined',
-            'buvid_fp': '65fbd3ec7ea1fba4aa76eb96cb7f6249',
-            'DedeUserID': '37611353',
-            'DedeUserID__ckMd5': 'af2f5320e5c29dea',
-            'bp_t_offset_37611353': '1020612344109072384',
-            'bili_ticket': 'eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzY0OTQzNTgsImlhdCI6MTczNjIzNTA5OCwicGx0IjotMX0.UA_DNnfYHwmuWf3mk3zAc45Ar6QrABl70LmFhjli-ms',
-            'CURRENT_FNVAL': '4048',
-            'SESSDATA': 'd0b56cac%2C1752455376%2C9a0da%2A12CjAOnVM6uYDuArVzsKs0vyy35cm-VhRFHM4S5_iarXLGWicX0fecOg0Qh9tqsaryutkSVmJ0WFBtVWl0cmdGUC02VmxQNEh1NDk0bm54VzlheWd1alBXSlVPRTZ0dkExcmRsZEtzd0ZYeVNNYkh6MkF5Q3ptYzRHTjRKNnNZd3RGd0JRdlBaYVhRIIEC',
-            'sid': '7lfoc3ai',#8位
-            'bili_jct': 'b155c6e8ee5318259a0bc50ecf260edb',
-            'bili_ticket_expires': '1736992392',  
-            'b_lsid': 'ACF7894A_19468277AD7',#位
-            'home_feed_column': '4',
-            'browser_resolution': '1229-569',  
+           
         }
         self.headers = {
-            'accept': '*/*',
-            'accept-language': 'zh-CN,zh;q=0.9',
-            'cache-control': 'no-cache',
-            'origin': 'https://www.bilibili.com',
-            'pragma': 'no-cache',
-            'priority': 'u=1, i',
-            'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
-            'sec-ch-ua-mobile': '?0',
-            'sec-ch-ua-platform': '"Windows"',
-            'sec-fetch-dest': 'empty',
-            'sec-fetch-mode': 'cors',
-            'sec-fetch-site': 'same-site',
-            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+            
         }
     #1.用户输入的url，解析到视频标题和oid等信息
     def give_oid(self):
